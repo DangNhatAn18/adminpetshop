@@ -317,9 +317,9 @@ a {
 }
 
 .box-header {
-    text-transform: capitalize;
-    font-size: 1.25rem;
-    font-weight: 700;
+    
+    font-size: 16px;
+    font-weight: 0;
 }
 
 .box-body {
@@ -487,4 +487,23 @@ table td {
         position: absolute;
         right: -15px;
     }
+    
 }
+.manage .bx-edit{
+    color: #39e033
+}
+.manage .bx-trash{
+    color: #e2140d
+}
+.box-header .bx-add-to-queue{
+    color: #0652dd
+}
+.box-header .bx-user-plus{
+    color: #0652dd
+}
+.box .control input{ 
+    border: 1px solid;
+    padding: 5px 5px 5px 5px;
+    
+}
+
